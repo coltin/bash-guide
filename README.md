@@ -1,7 +1,3 @@
-<p align="center">
-  <img src="https://cloud.githubusercontent.com/assets/2059754/24601246/753a7f36-1858-11e7-9d6b-7a0e64fb27f7.png" alt="bash logo"/>
-</p>
-
 ## Table of Contents
   1. [Basic Operations](#1-basic-operations)  
     1.1. [File Operations](#11-file-operations)  
@@ -1118,11 +1114,11 @@ done
 # 3. Tricks
 
 ## Set an alias
-Open `bash_profile` by running following command `nano ~/.bash_profile`
+Open `bash_profile` by running following command `vim ~/.bash_profile`
 > alias dockerlogin='ssh www-data@adnan.local -p2222'  # add your alias in .bash_profile
 
 ## To quickly go to a specific directory
-nano ~/.bashrc
+vim ~/.bashrc
 > export hotellogs="/workspace/hotel-api/storage/logs"
 
 ```bash
@@ -1169,16 +1165,6 @@ bash -n scriptname
 bash -v scriptname
 bash -x scriptname
 ```
-
-## Contribution
-
-- Report issues [How to](https://help.github.com/articles/creating-an-issue/)
-- Open pull request with improvements [How to](https://help.github.com/articles/about-pull-requests/)
-- Spread the word
-
-## Translation
-- [Turkish | Türkçe](https://github.com/omergulen/bash-guide)
-- [Japanese | 日本語](https://github.com/itooww/bash-guide)
 
 ## License
 
